@@ -72,6 +72,7 @@ app.get('*', function (req, res) {
     author: 'Júlio Mendes'
   });
 });
-app.listen(3000, function () {
-  console.log('server is up on port 3000');
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log("server is up on port ".concat(port));
 });

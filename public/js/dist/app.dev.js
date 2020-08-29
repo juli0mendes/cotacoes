@@ -21,7 +21,7 @@ cotacoesForm.addEventListener('submit', function (event) {
     return;
   }
 
-  fetch("http://localhost:3000/cotacoes?ativo=".concat(ativo)).then(function (response) {
+  fetch("/cotacoes?ativo=".concat(ativo)).then(function (response) {
     response.json().then(function (data) {
       if (data.error) {
         mainMessage.innerText = "Alguma coisa deu errado";
