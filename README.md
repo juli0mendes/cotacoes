@@ -1,7 +1,7 @@
-#Projeto Cotações
+## Projeto Cotações
 
-## Para executar, configure as dependências:
+### Para executar, configure as dependências:
 `npm i`
 
-## Depois, inicialize o servidor
+### Depois, inicialize o servidor
 `npm start`
